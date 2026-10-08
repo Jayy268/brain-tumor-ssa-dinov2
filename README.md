@@ -22,8 +22,8 @@ notebooks/
 The pipeline uses three sources, none of which are redistributed here:
 
 - **Brain Tumor MRI Dataset** (western training data) — available on Kaggle.
-- **BraTS-Africa** (external sensitivity) — available via The Cancer Imaging Archive (TCIA).
-- **Nigerian Brain Dataset** (external specificity) — available on brainlife.io.
+- **BraTS-Africa** (external sensitivity) — available via The Cancer Imaging Archive (TCIA) *Scans were extracted from only the 95 Glioma patients in the dataset*.
+- **Nigerian Brain Dataset** (external specificity) — available on brainlife.io (*Only axial scans were extracted*).
 
 Download these separately and set the paths in each notebook's **Configuration** cell.
 
